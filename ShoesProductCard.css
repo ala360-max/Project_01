@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+
+
+body {
+    background-color: #261E29;
+}
+
+.F_C {
+    margin: 200px auto;
+    width: 800px;
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(250, 250, 250);
+    border-radius: 15px;
+    perspective: 800px;
+    /*This is confusion so next time learn*/
+}
+
+
+.F_C>* {
+    background-color: aquamarine;
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.P_I {
+    background-color: #4D3D52;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.P_I>img:hover {
+    transform: scale(1.2);
+    box-shadow: inset 0px 0px 10px black, 0px 0px 10px rgb(255, 255, 255);
+    outline: 1px solid white;
+    background-color: #745C7C;
+}
+
+.P_I>img {
+    width: 80%;
+    height: auto;
+
+}
+
+
+
+.P_In {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #322836;
+    border-radius: 0px 15px 15px 0px;
+    font-family: cursive;
+    text-align: center;
+    color: #d5a5e6;
+}
+
+.P_In:hover {
+    transform: scale(1.2);
+    border-radius: 15px;
+    transform: translateY(45deg);
+    /*This confusion So I will next time learn*/
+}
+
+.P_In>.logoBox {
+    padding: 0px 10px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.T-name {
+    font-size: 0.9em;
+    color: #d5a5e6;
+}
+
+.T-Color {
+    font-size: 2.2em;
+}
+
+.C-Icon {
+    width: 100%;
+    padding: 0px 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.C-Icon>:nth-child(1) {
+    background-color: #d5a5e6;
+}
+
+.C-Icon>:nth-child(2) {
+    background-color: #c264e4;
+}
+
+.C-Icon>:nth-child(3) {
+    background-color: #b63be2;
+}
+
+.C-Icon>:nth-child(4) {
+    background-color: #aa08e6;
+}
+
+.C-Icon>* {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.T-size>p {
+    font-size: 2.2em;
+}
+
+.S-name {
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.S-name>p {
+    font-size: 2em;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.AddTocart>h1 {
+    font-size: 2.5em;
+    background-color: #261E29;
+    padding: 4px 45px;
+    border-radius: 15px;
+}
+
+.AddTocart>h1:hover {
+    box-shadow: 0px 0px 10px white, inset 0px 0px 5px white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.addtowish:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+
+}
